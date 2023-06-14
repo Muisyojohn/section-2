@@ -1,0 +1,68 @@
+QUESTION:4
+
+public class MultiplesOfNumbers{
+public static void main{String ages}
+{System.out.printin{"Multiples of 2, 3, and 7 within the range of 71-150:"};
+for{int i=71;i<=150;i++];{
+if[i%2==0||i%3==0||i%7==0]{System.out.printin(i);
+}
+}
+
+
+
+
+QUESTION:3
+
+import java.util.scanner;
+public class divisibility test{
+public static void main(
+system.out.print("Enter an integer:");
+int num=scanner.nexint();
+for(int i=0;i<=9;i++){
+if(num%i==0){
+System.out.printin(num+"is divisible by "+i);
+}else{
+System.out.printIn(num+"is not divisible by"+i);
+}
+}
+
+
+QUESTION:2
+public class averagemarks{
+public static void main(string||args){
+Scanner scanner =new
+scanner(system.in);
+system.out.printin("Enter marks of 5 units:");
+int totalmarks=0;
+for(int i=1;i<=5;i++){
+system.out.print("Unit"+i":");
+int marks=scanner.nextInt();
+totalmarks+=marks;
+}
+double average=(double)totalmarks/5;
+system.out.printIn(Average marks:"+average);
+}
+}
+
+
+QUESTION:1
+
+importjava.util.Scanner;
+public class surnameAndage{
+public static void main(String||args){
+Scanner scanner=new
+Scanner(System.in);
+System.out.print("Enter your surname:");
+String surname=scanner.nextLine();
+System.out.print("Enter your age:");
+int age=scanner.nextInt();
+int surnameLength=surname.length();
+system.outprintIn("Number of characters in your surname:"+surnameLength);
+System.out.printIn("Your age is "+(age%2==0?"even.":"odd.");
+scanner.close();
+}
+}
+
+In this program, we use the 'Scanner'class to get user input. Firstly, we ask the user to enter their surname and store it in the 'surname'variable using 'scanner.nextLine()'. Then, we ask the user to enter their age and store it in the 'age'variable using'scanner.nextInt()'.
+Next, we calculate the number of characters in the surname using the 'length()'method of the  'string'class and store it in the 'surnameLength'variable.
+Finally we use the ternary operator(?:)to determine if the age is even or odd and print the respective message 
